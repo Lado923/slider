@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.slider_container {
+    margin: 20px auto;
+    max-height: 81vh;
+}
+
+.slider{
+    max-width: 50vw;
+    max-height: 80vh;
+    border:  2px solid black;
+    margin: 20px auto;
+    overflow: hidden;
+
+}
+
+.slider-line {
+    display: flex;
+    background: red;
+    transition: all ease 1s;
+}
+
+.slide{
+    margin: auto 0;
+}
+
+img {
+ width: 100%;
+}
+
